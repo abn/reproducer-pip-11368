@@ -24,3 +24,5 @@ jobs:
           tags: latest
           containerfiles: |
             ./Containerfile
+          extra-args: |
+            --storage-opt=overlay.mount_program=
